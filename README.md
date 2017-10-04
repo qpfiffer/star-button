@@ -1,6 +1,12 @@
 A stupid project that shows you a star when you hit the star button on the new
 thinkpads.
 
+## Resources
+
+[GTK3 Docs](https://developer.gnome.org/gtk3/stable/gtk-question-index.html#id-1.2.5.3.3.1.16)
+
+## Lua Thing
+
 You'll need Love2D. You'll also need to make sure that your user is in whatever
 group the `/dev/input/event*` meta-files are in. You can check with `ls -al`:
 
@@ -37,4 +43,10 @@ After you've got all that taken care of you can run the program with:
 
 ```
 love .
+```
+
+## C project
+
+```
+sudo apt-get install libx11-dev libxcomposite-dev libcairo2-dev
 ```
