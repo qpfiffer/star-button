@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 	int status = 0;
 
 	app = gtk_application_new("org.quinlan.star_button", G_APPLICATION_FLAGS_NONE);
-	if (!g_application_id_is_valid(app)) {
+	if (!app) {
 		printf("Could not start new app.\n");
 		return -1;
 	}
